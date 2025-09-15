@@ -10,16 +10,15 @@ body {
 }
 
 .card {
-  max-width: 300px;
   width: 90%;
+  max-width: 500px;
   height: 520px;
   border: 0.5px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: #fff;
   margin: 40px auto 10px;
   border-radius: 10px;
-  text-align: center;
-  padding: 25px 30px;
+  padding: 20px;
   display: grid;
   gap: 80px;
   text-align: center;
@@ -62,7 +61,11 @@ body {
 .search-box button img {
   width: 15px;
 }
-
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 .details-container .weather img {
   width: 100px;
   margin: 0 auto;
@@ -82,8 +85,7 @@ body {
 .details-container .details {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 50px;
+  justify-content: space-around;
 }
   .details-container .details {
     display: flex;
@@ -99,11 +101,11 @@ body {
   color: #262626;
 }
 .details-container .details .col h3 {
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 16px;
 }
 .details-container .details .col p {
-  font-size: 14px;
+  font-size: 13px;
 }
 .error {
   font-size: 14px;
@@ -112,78 +114,14 @@ body {
   color: rgb(225, 5, 5);
   display: none;
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 320px) {
   .card {
-    max-width: 260px;
-    height: 420px;
-    margin: 40px auto 10px;
-    padding: 20px;
+    width: 90%;
+    height: 470px;
   }
 
-  .search-box input {
-    padding: 10px;
-    flex: 1;
-  }
-
-  .details-container .weather h1 {
-    font-size: 30px;
-  }
-  .details-container .weather h2 {
-    font-size: 20px;
-  }
-  .details-container .details .col img {
-    width: 20px;
-  }
-  .details-container .details .col h3 {
-    font-weight: 500;
-    font-size: 17px;
-  }
-  .details-container .details .col p {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 286px) {
-  .card {
-    max-width: 200px;
-    height: 360px;
-    margin: 70px auto 10px;
-    padding: 20px 7px;
-    gap: 40px;
-  }
-
-  .search-box {
-    gap: 8px;
-  }
-  .search-box input {
-    flex: 0;
-    padding: 8px 10px;
-    width: 130px;
-  }
-
-  .search-box button {
-    width: 35px;
-    height: 35px;
-  }
-  .search-box button img {
-    width: 10px;
-  }
-
-  .details-container .weather h1 {
-    font-size: 28px;
-  }
-  .details-container .weather h2 {
-    font-size: 18px;
-  }
   .details-container .details {
-    margin-top: 20px;
-  }
-  .details-container .details .col img {
-    width: 14px;
-  }
-  .details-container .details .col h3 {
-    font-size: 12px;
-  }
-  .details-container .details .col p {
-    font-size: 10px;
+    flex-direction: column;
+    gap: 20px;
   }
 }
