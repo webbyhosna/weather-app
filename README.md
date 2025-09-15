@@ -1,9 +1,10 @@
+<img src="./assets/screenshot.png" width="300"/>
+
 # 🌦️ Weather App
 
 A simple Weather App built with HTML, CSS, and JavaScript that shows real-time weather information using the OpenWeatherMap API.
 
-### 🌐 View Live Demo
-Try the Weather App live here: [Click to Open](https://webbyhosna.github.io/weather-app/)
+### [🌐 View Live Demo](https://webbyhosna.github.io/weather-app/)
 
 ### 🚀 Features
 
