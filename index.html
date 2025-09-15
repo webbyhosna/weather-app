@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/weather_app/images/snow.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="card">
+        <div>
+            <div class="search-box">
+                <input type="text" placeholder="enter city name..." spellcheck="false">
+                <button type="submit">
+                    <img src="./assets/search.png">
+                </button>
+
+            </div>
+            <div class="error">
+                <p>Invalid city name!</p>
+            </div>
+        </div>
+
+
+        <div class="details-container">
+
+            <div class="weather">
+                <img class="weather-icon" src="./assets/clear.png">
+
+                <div class="weather-info">
+                    <h1 class="temp"> 27°C </h1>
+                    <h2 class="city">Dhaka</h2>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="col">
+                    <img src="./assets/humidity.png" width="25">
+                    <div>
+                        <h3 class="humidity">89%</h3>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./assets/wind.png" width="25">
+                    <div>
+                        <h3 class="wind">11km/h</h3>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
