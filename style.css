@@ -21,6 +21,9 @@ body {
   padding: 25px 30px;
   display: grid;
   gap: 80px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-box {
@@ -61,6 +64,7 @@ body {
 
 .details-container .weather img {
   width: 100px;
+  margin: 0 auto;
 }
 
 .details-container .weather h1 {
@@ -99,4 +103,38 @@ body {
   margin: 5px 0 0 8px;
   color: rgb(225, 5, 5);
   display: none;
+}
+@media screen and (max-width: 330px) {
+  .card {
+    max-width: 260px;
+    height: 420px;
+    margin: 40px auto 10px;
+    padding: 20px;
+  }
+
+  .search-box input {
+    flex: 0;
+    padding: 10px;
+    flex: 1;
+    &:focus {
+      outline: 0.1px solid #fdb441;
+    }
+  }
+
+  .details-container .weather h1 {
+    font-size: 30px;
+  }
+  .details-container .weather h2 {
+    font-size: 20px;
+  }
+  .details-container .details .col img {
+    width: 20px;
+  }
+  .details-container .details .col h3 {
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .details-container .details .col p {
+    font-size: 13px;
+  }
 }
