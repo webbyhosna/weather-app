@@ -54,4 +54,4 @@ weather-app/
 - Improve UI with animations
 
 ### 👩‍💻 Author
-This project is developed by **[Asma Ul Hosna](linkedin.com/in/asma-ul-hosna-4a6193367)** 🚀
+This project is developed by [Asma Ul Hosna](https://www.linkedin.com/in/asma-ul-hosna-4a6193367/) 
